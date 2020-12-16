@@ -32,5 +32,5 @@ except ImportError:
     pass
 
 # import any pure python here
-from .wbfm_alt_receiver import wbfm_alt_receiver
+from .wbfm_alt_rcv import wbfm_alt_rcv
 #

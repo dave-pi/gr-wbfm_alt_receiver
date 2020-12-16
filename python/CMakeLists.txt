@@ -32,7 +32,7 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    wbfm_alt_receiver.py DESTINATION ${GR_PYTHON_DIR}/wbfm_alt_receiver
+    wbfm_alt_rcv.py DESTINATION ${GR_PYTHON_DIR}/wbfm_alt_receiver
 )
 
 ########################################################################

@@ -19,5 +19,5 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    wbfm_alt_receiver_wbfm_alt_receiver.block.yml DESTINATION share/gnuradio/grc/blocks
+    wbfm_alt_receiver_wbfm_alt_rcv.block.yml DESTINATION share/gnuradio/grc/blocks
 )

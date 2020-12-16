@@ -25,18 +25,11 @@ outputs:
     vlen: 1
 
 templates:
-    imports: 'from wbfm_alt_rcv import wbfm_alt_rcv  # grc-generated hier_block'
+    imports: 'from wbfm_alt_receiver import wbfm_alt_rcv'
     make: "wbfm_alt_rcv(\n    audio_rate=${ audio_rate },\n    samp_rate=${ samp_rate\
         \ },\n)"
     callbacks:
     - set_audio_rate(${ audio_rate })
     - set_samp_rate(${ samp_rate })
-
-documentation: 'David P
-
-    Alternate FM receiver algorithm
-
-    /home/david/.grc_gnuradio/wbfm_alt_rcv.py'
-grc_source: /home/david/glocal/David/dev/dsp_sdr/gr-wbfm_alt_receiver/wbfm_alt_rcv.grc
 
 file_format: 1
