@@ -1,2 +1,2 @@
 # gr-wbfm_alt_receiver
-An alternative WBFM demodulator
+An alternative GNU Radio WBFM demodulator
